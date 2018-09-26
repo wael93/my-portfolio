@@ -16,8 +16,11 @@
   background-position-y: 0;
 }
 
-.overlay-down h1,
-.overlay-down h2 {
+.overlay-down h1 {
   width: 70%;
   margin: 100px auto;
+}
+
+.overlay-down h2 {
+  margin: 20px auto;
 }
