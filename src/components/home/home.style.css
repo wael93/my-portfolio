@@ -1,0 +1,24 @@
+.home {
+  height: 200vh;
+  background: var(--light-color);
+}
+
+.ver-line {
+  height: 0;
+  width: 3px;
+  background: var(--secondary-color);
+  margin: 0 auto;
+  transition: all 3s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.drop {
+  display: block;
+  background: var(--secondary-color);
+  width: 30px;
+  height: 30px;
+  position: relative;
+  margin: 0 auto;
+  border-radius: 50%;
+  transform: scale(0.7, 1) rotate(45deg);
+  border-top-left-radius: 0;
+  box-shadow: 1px 1px 7px black;
+}

@@ -1,0 +1,23 @@
+.header {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+}
+
+.overlay-down {
+  width: 100vh;
+  height: 100vh;
+  position: relative;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  background: url(http://blog.visme.co/wp-content/uploads/2017/07/50-Beautiful-and-Minimalist-Presentation-Backgrounds-04.jpg);
+  background-attachment: fixed;
+  box-shadow: 1px 1px 7px black;
+  background-position-y: 0;
+}
+
+.overlay-down h1,
+.overlay-down h2 {
+  width: 70%;
+  margin: 100px auto;
+}
