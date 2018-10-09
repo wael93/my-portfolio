@@ -15,23 +15,39 @@
   box-shadow: 1px 1px 7px black;
   background-size: 100%;
   background-position-y: 0;
+  transition: all 1s cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
 .overlay-down h1 {
-  width: 70%;
+  width: 80vh;
   margin: 50px auto;
 }
 
 .overlay-down h2 {
+  width: 100vh;
   margin: 20px auto;
 }
 
 .img-round {
+  position: absolute;
+  z-index: 100;
+  bottom: 10%;
   border-radius: 50%;
   margin: 0 auto;
   height: 200px;
   width: 200px;
   border: solid var(--light-color) 10px;
   background: url(/imgs/me.jpg);
+  transition: all 1s cubic-bezier(0.075, 0.82, 0.165, 1);
   background-size: 200px 200px;
+}
+
+.img-round:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 0px 20px black;
+}
+
+.img-round:hover ~ .overlay-down {
+  width: 100vw;
+  border-radius: 0;
 }

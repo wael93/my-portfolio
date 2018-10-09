@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "./home.style.css";
 import Header from "../header/header.component";
-import Mystory from "../mystory/mystory.component";
+import Social from "../social/social.component";
 
 export default class Home extends Component {
   constructor(props) {
@@ -24,11 +24,11 @@ export default class Home extends Component {
     return (
       <div className="home">
         <Header />
+        <Social />
         <div className="line-drop">
           <div className="ver-line" />
           <div className="drop" />
         </div>
-        <Mystory />
       </div>
     );
   }
