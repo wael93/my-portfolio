@@ -61,6 +61,10 @@ p {
   background: var(--main-color);
 }
 
+::-moz-selection {
+  background: #44abab;
+}
+
 ::selection {
   background: #44abab;
 }

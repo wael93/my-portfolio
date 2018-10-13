@@ -1,5 +1,9 @@
 .header {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
   height: 100vh;
 }
@@ -12,9 +16,11 @@
   border-bottom-right-radius: 50%;
   background: url(http://blog.visme.co/wp-content/uploads/2017/07/50-Beautiful-and-Minimalist-Presentation-Backgrounds-04.jpg);
   background-attachment: fixed;
+  -webkit-box-shadow: 1px 1px 7px black;
   box-shadow: 1px 1px 7px black;
   background-size: 130%;
   background-position-y: 0;
+  -webkit-transition: all 1s cubic-bezier(0.075, 0.82, 0.165, 1);
   transition: all 1s cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
@@ -40,6 +46,7 @@
   height: 200px;
   width: 200px;
   background: url(/imgs/me.jpg);
+  -webkit-transition: all 1s cubic-bezier(0.075, 0.82, 0.165, 1);
   transition: all 1s cubic-bezier(0.075, 0.82, 0.165, 1);
   opacity: 0.8;
   background-size: 200px 200px;
@@ -47,13 +54,17 @@
 
 .img-round:hover {
   opacity: 1;
+  -webkit-transform: scale(2.1);
   transform: scale(2.1);
+  -webkit-box-shadow: 0px 0px 20px black;
   box-shadow: 0px 0px 20px black;
 }
 
 .img-round:hover ~ .overlay-down {
   background-image: url(./50-Beautiful-and-Minimalist-Presentation-Backgrounds-04.jpg);
+  -webkit-transition: all 2s ease-in-out;
   transition: all 2s ease-in-out;
+  -webkit-box-shadow: none;
   box-shadow: none;
 }
 

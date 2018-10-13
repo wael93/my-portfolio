@@ -3,10 +3,14 @@
   position: absolute;
   z-index: 200;
   width: 10%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   left: 0;
   right: 0;
   margin: 100px auto;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
   justify-content: space-between;
 }
 .social ul {
@@ -21,11 +25,16 @@
 
 .social i {
   font-size: 50px;
+  -webkit-transition: -webkit-transform 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+  transition: -webkit-transform 1s cubic-bezier(0.075, 0.82, 0.165, 1);
   transition: transform 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+  transition: transform 1s cubic-bezier(0.075, 0.82, 0.165, 1),
+    -webkit-transform 1s cubic-bezier(0.075, 0.82, 0.165, 1);
   color: var(--secondary-color);
 }
 
 .social i:hover {
+  -webkit-transform: scale(2);
   transform: scale(2);
   color: var(--main-color);
 }
