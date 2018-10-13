@@ -56,3 +56,21 @@
   transition: all 2s ease-in-out;
   box-shadow: none;
 }
+
+@media only screen and (max-width: 768px) {
+  .overlay-down {
+    width: 100vw;
+    height: 100vh;
+    background-size: 200%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+  }
+  .overlay-down h1 {
+    width: 80vw;
+  }
+
+  .overlay-down h2 {
+    width: 100vw;
+    margin: 20px auto;
+  }
+}

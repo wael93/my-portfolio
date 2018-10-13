@@ -64,3 +64,10 @@ p {
 ::selection {
   background: #44abab;
 }
+
+@media (max-width: 768px) {
+  html,
+  body {
+    overflow-x: hidden;
+  }
+}

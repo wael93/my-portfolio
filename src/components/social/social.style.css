@@ -29,3 +29,18 @@
   transform: scale(2);
   color: var(--main-color);
 }
+
+@media only screen and (max-width: 768px) {
+  .social {
+    width: 40%;
+  }
+
+  .social i {
+    font-size: 100px;
+    margin: 20px auto;
+  }
+
+  .social ul li {
+    margin: 20px 0;
+  }
+}
