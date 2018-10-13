@@ -49,6 +49,7 @@ export default class Home extends Component {
           <div className="drop">
             <a
               className="download-btn-text"
+              target="_blanck"
               href="https://drive.google.com/file/d/1ZkdFAaNuawv8VD7Tx9Wbt5Sc0AmYY91Z/view?usp=sharing"
             >
               download my resume
