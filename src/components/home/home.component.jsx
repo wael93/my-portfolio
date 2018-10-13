@@ -12,7 +12,8 @@ export default class Home extends Component {
 
   onScroll = e => {
     this.translateHeaderImg(e);
-    if (window.innerHeight === window.pageYOffset) {
+
+    if (window.innerHeight <= window.pageYOffset) {
       this.showDownloadBtn();
     } else {
       this.hideDownloadBtn();

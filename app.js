@@ -10,11 +10,7 @@ app.get("/", (req, res) => {
 });
 
 app.get("/visits", (req, res) => {
-  res.send(visits);
-});
-
-app.get("*", (req, res) => {
-  res.redirect("/");
+  res.send(visits.toString());
 });
 
 app.listen(process.env.PORT || 3000, () => {

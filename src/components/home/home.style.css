@@ -147,7 +147,7 @@
   60% {
   }
   70% {
-    width: 330px;
+    width: 40%;
   }
 
   80% {
@@ -157,8 +157,8 @@
   }
 
   100% {
-    width: 330px;
     height: 50px;
+    width: 40%;
     margin: 0 auto;
     padding: 5px 20px;
     border-radius: 20px;
