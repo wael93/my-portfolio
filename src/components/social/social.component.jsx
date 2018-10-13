@@ -6,7 +6,7 @@ export default class Social extends Component {
     return (
       <div className="social">
         <ul>
-          <li>
+          <li data-aos="fade-down-right">
             <a
               target="_blank"
               rel="noopener noreferrer"
@@ -16,7 +16,7 @@ export default class Social extends Component {
             </a>
           </li>
 
-          <li>
+          <li data-aos="fade-down-right">
             <a
               target="_blank"
               rel="noopener noreferrer"
@@ -26,7 +26,7 @@ export default class Social extends Component {
             </a>
           </li>
 
-          <li>
+          <li data-aos="fade-down-right">
             <a
               target="_blank"
               rel="noopener noreferrer"
@@ -35,8 +35,9 @@ export default class Social extends Component {
               <i className="fab fa-twitter-square" />
             </a>
           </li>
-
-          <li>
+        </ul>
+        <ul>
+          <li data-aos="fade-down-left">
             <a
               target="_blank"
               rel="noopener noreferrer"
@@ -46,14 +47,22 @@ export default class Social extends Component {
             </a>
           </li>
 
-          <li>
-            <a target="_blank" rel="noopener noreferrer" href="+962777717358">
+          <li data-aos="fade-down-left">
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="tel:+962777717358"
+            >
               <i className="fab fa-whatsapp-square" />
             </a>
           </li>
 
-          <li>
-            <a target="_blank" rel="noopener noreferrer" href="">
+          <li data-aos="fade-down-left">
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://www.linkedin.com/in/z3bya/"
+            >
               <i className="fab fa-linkedin" />
             </a>
           </li>

@@ -7,8 +7,27 @@ export default class Home extends Component {
   constructor(props) {
     super(props);
     this.state = {};
-    window.onscroll = this.translateHeaderImg;
+    window.onscroll = this.onScroll;
   }
+
+  onScroll = e => {
+    this.translateHeaderImg(e);
+    if (window.innerHeight === window.pageYOffset) {
+      this.showDownloadBtn();
+    } else {
+      this.hideDownloadBtn();
+    }
+  };
+
+  showDownloadBtn = () => {
+    document.querySelector(".drop").classList.add("show-btn");
+  };
+
+  hideDownloadBtn = () => {
+    if (document.querySelector(".drop").classList.contains("show-btn")) {
+      document.querySelector(".drop").classList.remove("show-btn");
+    }
+  };
 
   translateHeaderImg = e => {
     document.querySelector(".overlay-down").style.backgroundPositionY =
@@ -27,7 +46,14 @@ export default class Home extends Component {
         <Social />
         <div className="line-drop">
           <div className="ver-line" />
-          <div className="drop" />
+          <div className="drop">
+            <a
+              className="download-btn-text"
+              href="https://drive.google.com/file/d/1ZkdFAaNuawv8VD7Tx9Wbt5Sc0AmYY91Z/view?usp=sharing"
+            >
+              download my resume
+            </a>
+          </div>
         </div>
       </div>
     );
