@@ -72,9 +72,9 @@
   .overlay-down {
     width: 100vw;
     height: 100vh;
-    background-size: 200%;
-    border-bottom-left-radius: 50%;
-    border-bottom-right-radius: 50%;
+    background-size: 300%;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
   }
   .overlay-down h1 {
     width: 80vw;
@@ -89,8 +89,8 @@
 @media (max-width: 425px) {
   .overlay-down {
     background-size: 200%;
-    border-bottom-left-radius: 200px;
-    border-bottom-right-radius: 200px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
   }
   .overlay-down h1 {
     width: 80vw;
