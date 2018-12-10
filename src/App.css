@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Dosis|Quicksand");
 @import url("https://fonts.googleapis.com/css?family=Kodchasan");
+@import url("https://fonts.googleapis.com/css?family=Limelight");
+@import url("https://fonts.googleapis.com/css?family=Playfair+Display");
 
 :root {
   --main-color: #008585;
@@ -9,7 +11,7 @@
 
 html {
   scroll-behavior: smooth;
-  background: var(--light-color);
+  background: black;
 }
 
 h1,
@@ -20,12 +22,7 @@ h5,
 h6 {
   margin: 0;
   padding: 0;
-  font-family: "Dosis", "Quicksand";
   text-align: center;
-  color: var(--light-color);
-  text-transform: capitalize;
-  letter-spacing: 0.5rem;
-  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
 }
 
 h1 {
