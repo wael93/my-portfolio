@@ -1,74 +1,32 @@
-@import url("https://fonts.googleapis.com/css?family=Dosis|Quicksand");
-@import url("https://fonts.googleapis.com/css?family=Kodchasan");
-@import url("https://fonts.googleapis.com/css?family=Limelight");
-@import url("https://fonts.googleapis.com/css?family=Playfair+Display");
-
-:root {
-  --main-color: #008585;
-  --secondary-color: #44abab;
-  --light-color: #eee6d2;
-}
-
-html {
-  scroll-behavior: smooth;
-  background: black;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  margin: 0;
-  padding: 0;
+.App {
   text-align: center;
 }
 
-h1 {
-  font-size: 400%;
-}
-h2 {
-  font-size: 150%;
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
 }
 
-p {
-  font-size: 170%;
-  text-transform: capitalize;
-  font-family: "Kodchasan";
-}
-/* width */
-::-webkit-scrollbar {
-  width: 10px;
-}
-
-/* Track */
-::-webkit-scrollbar-track {
-  background: var(--light-color);
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
 }
 
-/* Handle */
-::-webkit-scrollbar-thumb {
-  background: var(--secondary-color);
-  border-radius: 10px;
+.App-link {
+  color: #61dafb;
 }
 
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-  background: var(--main-color);
-}
-
-::-moz-selection {
-  background: #44abab;
-}
-
-::selection {
-  background: #44abab;
-}
-
-@media (max-width: 768px) {
-  html,
-  body {
-    overflow-x: hidden;
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
   }
 }
