@@ -83,3 +83,25 @@ p.lead {
     }
   }
 }
+
+
+.subheading {
+
+  .logo-100 {
+    width: 5rem;
+    filter: saturate(0) brightness(250%);
+  }
+
+  a:hover {
+    text-decoration: none;
+  }
+}
+
+.subheading:hover {
+  .logo-100 {
+    filter: unset;
+    transform: scale(1.1);
+    transition: .3s ease;
+
+  }
+}
