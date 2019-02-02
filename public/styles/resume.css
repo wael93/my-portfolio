@@ -2,8 +2,8 @@ body {
   font-family: 'Muli', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   padding-top: 54px;
   color: #999;
-  background: -webkit-gradient(linear, left top, right top, from(#111), to(#1D4350));
-  background: linear-gradient(to right, #111, #1D4350);
+  background: -webkit-gradient(linear, left top, right top, from(#040E20), to(#1a1B35));
+  background: linear-gradient(to right, #040E20, #1a1B35);
 }
 
 @media (min-width: 992px) {
@@ -22,7 +22,7 @@ h6 {
   font-family: 'Saira Extra Condensed', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   font-weight: 700;
   text-transform: uppercase;
-  color: #2D5670;
+  color: #e73827;
 }
 
 h1 {
@@ -68,7 +68,7 @@ p.lead {
 }
 
 .social-icons a:hover {
-  background-color: #4B79A1;
+  background-color: #f85032;
 }
 
 .dev-icons {
@@ -76,7 +76,7 @@ p.lead {
 }
 
 .dev-icons .list-inline-item i:hover {
-  color: #4B79A1;
+  color: #f85032;
 }
 
 .subheading .logo-100 {
@@ -99,8 +99,17 @@ p.lead {
 }
 
 #sideNav {
-  background: -webkit-gradient(linear, left top, left bottom, from(#4B79A1), to(#1D4350));
-  background: linear-gradient(#4B79A1, #1D4350);
+  background: -webkit-gradient(linear, left top, left bottom, from(#f85032), to(#e73827));
+  background: linear-gradient(#f85032, #e73827);
+  overflow: hidden;
+}
+
+#sideNav .nav-background {
+  height: 100%;
+  position: absolute;
+  bottom: 0;
+  opacity: .4;
+  z-index: 0;
 }
 
 #sideNav .navbar-nav .nav-item .nav-link {
@@ -110,7 +119,7 @@ p.lead {
 }
 
 #sideNav .navbar-toggler:focus {
-  outline-color: #789fc0;
+  outline-color: #fb8f7c;
 }
 
 @media (min-width: 992px) {
@@ -138,6 +147,8 @@ p.lead {
   }
   #sideNav .navbar-brand .img-profile {
     max-width: 10rem;
+    position: relative;
+    z-index: 1;
     max-height: 10rem;
     border: 0.5rem solid rgba(255, 255, 255, 0.2);
   }
@@ -151,6 +162,8 @@ p.lead {
     -webkit-box-flex: 0;
         -ms-flex-positive: 0;
             flex-grow: 0;
+    position: relative;
+    z-index: 1;
     width: 100%;
     margin-bottom: auto;
   }
@@ -214,18 +227,18 @@ section.resume-section .resume-item .resume-date {
 }
 
 .bg-primary {
-  background-color: #4B79A1 !important;
+  background-color: #f85032 !important;
 }
 
 .text-primary {
-  color: #4B79A1 !important;
+  color: #f85032 !important;
 }
 
 a {
-  color: #4B79A1;
+  color: #f85032;
 }
 
 a:hover, a:focus, a:active {
-  color: #33526d;
+  color: #d62707;
 }
 /*# sourceMappingURL=resume.css.map */

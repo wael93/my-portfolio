@@ -4,7 +4,7 @@ body {
   @include body-font;
   padding-top: 54px;
   color: #999;
-  background: linear-gradient(to right, #111, #1D4350)
+  background: linear-gradient(to right, #040E20, #1a1B35)
 }
 
 @media (min-width: 992px) {
@@ -23,7 +23,7 @@ h6 {
   @include heading-font;
   font-weight: 700;
   text-transform: uppercase;
-  color: #2D5670;
+  color: $secondary;
 }
 
 h1 {
