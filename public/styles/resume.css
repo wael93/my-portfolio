@@ -179,8 +179,8 @@ section.resume-section .resume-item {
   border-left: 5px solid #1D4350;
   padding: 1rem;
   background: rgba(170, 170, 170, 0.05);
-  -webkit-box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.3);
-          box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
+          box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
   cursor: default;
   -webkit-transition: all .3s ease;
   transition: all .3s ease;
@@ -189,8 +189,8 @@ section.resume-section .resume-item {
 section.resume-section .resume-item:hover {
   -webkit-transform: scale(1.02);
           transform: scale(1.02);
-  -webkit-box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.5);
-          box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.4);
+          box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.4);
 }
 
 section.resume-section .resume-item .resume-date {
