@@ -37,6 +37,11 @@
     width: $sidebar-base-width;
     height: 100vh;
 
+
+    .nav-background {
+      display: none;
+    }
+
     .navbar-brand {
       display: flex;
 

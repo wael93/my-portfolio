@@ -138,6 +138,9 @@ p.lead {
     width: 17rem;
     height: 100vh;
   }
+  #sideNav .nav-background {
+    display: none;
+  }
   #sideNav .navbar-brand {
     display: -webkit-box;
     display: -ms-flexbox;
